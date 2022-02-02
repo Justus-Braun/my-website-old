@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+.button:hover, .button:active { 
+    top: -10px;
+}
+
+.button {
+    position: relative;
+    border: none;
+    padding: 0;
+    margin-left: 5%;
+    margin-right: 5%;
+    background-color: #282c34;
+    transition: top ease 0.5s;
+    top: 0;
+}
